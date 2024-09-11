@@ -1,1 +1,6 @@
+pandas
+numpy
+streamlit
+joblib
+scikit-learn  # Required for loading the linear regression model
 
