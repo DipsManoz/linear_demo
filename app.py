@@ -18,7 +18,7 @@ feature1 = st.number_input("Enter total bill", value=0.0)
 if st.button("Predict"):
      # Prepare input data for prediction
      # input_data = np.array([[feature1]])
-    input_data=pd.DataFrame({'total_bill':[input_data]})
+    input_data=pd.DataFrame({'total_bill':[feature1]})
     
     # Make prediction using the loaded model
     prediction = model.predict(input_data)
